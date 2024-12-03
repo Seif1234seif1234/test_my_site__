@@ -1,0 +1,105 @@
+:root{
+    --a : #102754;
+    --aa : #453cc9;
+    --ab : #22aff1;
+    --ac : #d4e8ff;
+    --ad : #ffffff;
+}
+
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--a);
+    padding: 10px;
+    padding-top: 50px;
+}
+
+._main_{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--aa);
+    padding: 10px;
+    gap: 10px;
+    border-radius: 15px;
+}
+._preview_{
+    background-color: var(--ab);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.img_preview{
+    width: 50%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.editor{
+    border-radius: 15px;
+    background-color: var(--ab);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    padding-top: 20px;
+}
+.editor div{
+    display: flex;
+    justify-content: space-between;
+}
+.uploader_img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.uploader_img::-webkit-file-upload-button{
+    width: 50%;
+    background-color: var(--a);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+._name_ input, ._prix_ input,._catagory_ input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    background-color: var(--a);
+    color: white;
+}
+._name_ input::placeholder, ._prix_ input::placeholder,._catagory_ input::placeholder{
+    color: rgb(151, 177, 189);
+}
+._submit_ {
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+._submit_ button{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: var(--a);
+    color: white;
+    border: 1px solid ;
+}
+._name_ label, ._prix_ label,._catagory_ label{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

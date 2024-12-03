@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body{
+    background-color: #D4EBFF;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #453CC9;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #6b8286;
+    height: 60px;
+    position: fixed;
+    background-color: #453CC9;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 15px #453CC9;
+}
+.block_header{
+    height: 60px;
+    background-color: #453CC9;
+    border-radius: 0 0 15px 15px;
+}
+.div_logo{
+    margin-left:10px ;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 3px 1px black;
+    border-radius: 15px 5px 15px 5px;
+}
+.header div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header div h1{
+	font-family: arial;
+    color: white;
+}
+
+.links_{
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.links_ a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: arial;
+}
+.links_ a:hover{
+    text-shadow: 1px 1px 1px ;
+}
+._upload_{
+    width: 100px;
+    height: 30px;
+    background-color: #22aff1;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 3px 3px 2px black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+._upload_:hover{
+    cursor: pointer;
+}
+
+main{
+    background-color: #D4EBFF;
+}
+._view{
+    display: flex;
+    width: auto;
+    width: 100%;
+    align-items: center;
+    /* background-color: rgb(192, 188, 180); */
+    background-color: #D4EBFF;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+
+}
+
+.element{
+    width: 260px;
+    height: 260px;
+    border-radius: 25px;
+    border: #8d8b8b 2px solid;
+    box-shadow: 0 1px 5px 2px #453CC9;
+    background-color: white;
+
+}
+.element:hover{
+    box-shadow: 2px 8px 15px 3px grey ;
+    cursor: pointer;
+    border-radius: 10px;
+}
+

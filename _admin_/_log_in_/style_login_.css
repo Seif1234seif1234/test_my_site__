@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    background-color: #031716;
+}
+._main_{
+    display: flex;
+    flex-direction: column;
+    background-color: #032F30;
+    
+    padding: 10px;
+    gap: 20px;
+    border-radius: 15px;
+}
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+._formailair_{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+._formailair_ div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+._formailair_ input{
+    height: 30px;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: #0A7075;
+    color: white;
+}
+._formailair_ label{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+._submit_{
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+._error_{
+    display: flex;
+    border-top: 1px solid white;
+    justify-content: center;
+}
+.error{
+    text-align: center;
+    color: white;
+}
